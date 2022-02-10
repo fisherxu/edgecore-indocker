@@ -3,14 +3,10 @@
 
 ## Build the image
 
-Use the cmd below:
+Use the cmd below to build the image:
 ```
 DOCKER_BUILDKIT=1 docker build --no-cache  -t {image}:{tag} .
 ```
-
-This directory contains sources for building the `kind` base "node" image.
-
-The image can be built with `make quick`.
 
 ## Maintenance
 
