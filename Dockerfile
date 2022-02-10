@@ -130,4 +130,4 @@ ENV container docker
 STOPSIGNAL SIGRTMIN+3
 
 # NOTE: this is *only* for documentation, the entrypoint is overridden later
-ENTRYPOINT [ "/usr/local/bin/entrypoint", "/usr/local/bin/containerd" ]
+ENTRYPOINT [ "/usr/local/bin/entrypoint", "/sbin/init" ]
